@@ -13,6 +13,7 @@
 	width: 25%;
 	background-color: #444;
 	border-radius: 25px;
+	box-shadow: 5px 5px 15px 3px #111;
 }
 
 button{
@@ -24,6 +25,7 @@ button{
 	margin-bottom: 2%;
 	margin-top: 2%;
 	outline: none;
+	box-shadow: 2px 2px 1px 1px #222;
 }
 
 button:active{
