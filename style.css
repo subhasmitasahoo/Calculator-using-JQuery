@@ -1,0 +1,48 @@
+@import url(https://fonts.googleapis.com/css?family=Droid+Sans+Mono|Pacifico|Oxygen);
+#header{
+	height: 100px;
+	text-align: center;
+	margin-bottom: 10px;
+	font-family: Pacifico;
+	line-height: 100px;
+	margin-top: 0px;
+}
+
+#content{
+	margin: 0 auto;
+	width: 25%;
+	background-color: #444;
+	border-radius: 25px;
+}
+
+button{
+	width: 20%;
+	height: 50px;
+	margin-left: 2%;
+	margin-right: 2%;
+	border-radius: 15px;
+	margin-bottom: 2%;
+	margin-top: 2%;
+	outline: none;
+}
+
+button:active{
+	background-color: gray;
+}
+
+#result{
+	width: 70%;
+	height: 40px;
+	background-color: white;
+	display: inline-block;
+	margin-top: 2%;
+	text-align: center;
+	line-height: 40px;
+}
+
+body{
+	background: #ADD100;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #7B920A, #ADD100);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #7B920A, #ADD100); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
